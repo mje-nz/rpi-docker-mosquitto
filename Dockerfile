@@ -21,3 +21,7 @@ RUN buildDeps='build-base openssl-dev libwebsockets-dev c-ares-dev util-linux-de
     rm mosquitto-${MOSQUITTO_VERSION}.tar.gz && \
     rm -rf mosquitto-${MOSQUITTO_VERSION} && \
     apk del $buildDeps && rm -rf /var/cache/apk/*
+
+EXPOSE 1883
+
+CMD ["mosquitto"]
