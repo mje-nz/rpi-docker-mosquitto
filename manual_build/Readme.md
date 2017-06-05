@@ -1,6 +1,6 @@
 # Docker Mosquitto image for Raspberry Pi (or other armhf)
-This image contains [Eclipse Mosquitto](http://mosquitto.org) 1.4.12, in an Alpine base image.
-It's based on [foertel/armhf-alpine-mosquitto](https://github.com/foertel/armhf-alpine-mosquitto).
+This image contains [Eclipse Mosquitto](http://mosquitto.org) 1.4.11, in an Alpine base image.
+It's based on [op-en/mosquitto](https://github.com/op-en/mosquitto) and [jllopis/docker-mosquitto](https://github.com/jllopis/docker-mosquitto).
 
 To run:
 ```
